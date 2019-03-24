@@ -1,0 +1,14 @@
+C:\app\dragdrop1\dragdrop1.api\bin\Debug\netcoreapp2.2\dragdrop1.api.deps.json
+C:\app\dragdrop1\dragdrop1.api\bin\Debug\netcoreapp2.2\dragdrop1.api.runtimeconfig.json
+C:\app\dragdrop1\dragdrop1.api\bin\Debug\netcoreapp2.2\dragdrop1.api.runtimeconfig.dev.json
+C:\app\dragdrop1\dragdrop1.api\bin\Debug\netcoreapp2.2\dragdrop1.api.dll
+C:\app\dragdrop1\dragdrop1.api\bin\Debug\netcoreapp2.2\dragdrop1.api.pdb
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.csprojAssemblyReference.cache
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.csproj.CoreCompileInputs.cache
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.RazorAssemblyInfo.cache
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.RazorAssemblyInfo.cs
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.AssemblyInfoInputs.cache
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.AssemblyInfo.cs
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.RazorTargetAssemblyInfo.cache
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.dll
+C:\app\dragdrop1\dragdrop1.api\obj\Debug\netcoreapp2.2\dragdrop1.api.pdb
