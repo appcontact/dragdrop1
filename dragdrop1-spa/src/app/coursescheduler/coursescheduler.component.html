@@ -1,0 +1,97 @@
+<div class="row ml-3 mt-3"><h4>Computer Science Course Schedule</h4></div>
+<div cdkDropListGroup>
+  <div class="row ml-3 mt-3">
+    <div class="course-choice-container ml-4">
+      <div
+        cdkDropList
+        #cs_choices="cdkDropList"
+        id='course_choice'
+        [cdkDropListData]="courses_choice"
+        class="course-list"
+        (cdkDropListDropped)="drop_to_coursechoice($event)">
+          <div class="course-box" *ngFor="let item of courses_choice.courses" cdkDrag>
+            {{item.course}}
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row ml-1 mt-4">
+      <div class="time-container ml-2">
+        <h3>Time</h3>
+        <div class="time-list">
+          <div class="time-box">08:00</div>
+        </div>
+      </div>
+      <div class="course-container">
+        <h3>Monday</h3>
+        <div
+          cdkDropList
+          #8000="cdkDropList"
+          id="8000"
+          [cdkDropListData]="day_hourly"
+          class="course-list"
+          (cdkDropListDropped)="drop($event)">
+            <div class="course-box" *ngFor="let item of day_hourly[0][800]; let i=index" cdkDrag tooltip="{{item.prof_name}}, {{item.course_name}}" placement="top" show-delay="500">
+              {{item.course}}
+            </div>
+        </div>
+      </div>
+      <div class="course-container">
+        <h3>Tuesday</h3>
+        <div
+          cdkDropList
+          #8001="cdkDropList"
+          id="8001"
+          [cdkDropListData]="day_hourly"
+          class="course-list"
+          (cdkDropListDropped)="drop($event)">
+          <div class="course-box" *ngFor="let item of day_hourly[1][800]" cdkDrag tooltip="{{item.prof_name}}, {{item.course_name}}" placement="top" show-delay="500">
+            {{item.course}}
+          </div>
+        </div>
+      </div>
+      <div class="course-container">
+      <h3>Wednesday</h3>
+      <div
+        cdkDropList
+        id="8002"
+        #8002="cdkDropList"
+        [cdkDropListData]="day_hourly"
+        class="course-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="course-box" *ngFor="let item of day_hourly[2][800]" cdkDrag tooltip="{{item.prof_name}}, {{item.course_name}}" placement="top" show-delay="500">
+          {{item.course}}
+        </div>
+      </div>
+      </div>
+      <div class="course-container">
+        <h3>Thursday</h3>
+        <div
+          cdkDropList
+          id="8003"
+          #8003="cdkDropList"
+          [cdkDropListData]="day_hourly"
+          class="course-list"
+          (cdkDropListDropped)="drop($event)">
+          <div class="course-box" *ngFor="let item of day_hourly[3][800]" cdkDrag tooltip="{{item.prof_name}}, {{item.course_name}}" placement="top" show-delay="500">
+            {{item.course}}
+          </div>
+        </div>
+      </div>
+      <div class="course-container">
+      <h3>Friday</h3>
+      <div
+        cdkDropList
+        id="8004"
+        #8004="cdkDropList"
+        [cdkDropListData]="day_hourly"
+        class="course-list"
+        (cdkDropListDropped)="drop($event)">
+        <div class="course-box" *ngFor="let item of day_hourly[4][800]" cdkDrag tooltip="{{item.prof_name}}, {{item.course_name}}" placement="top" show-delay="500">
+          {{item.course}}
+        </div>
+      </div>
+      </div>
+  </div>  
+</div>
+    

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\app\\dragdrop1\\dragdrop1.api\\dragdrop1.api.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
